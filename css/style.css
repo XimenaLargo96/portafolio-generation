@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    --green:#afc7b9;
+    --dark-green:#afc7b99a;
+    --peach:#ffe1c9;
+    --pink:#fac7b4;
+    --dark-pink:#fca89d;
+    --brown:#998b82;
+}
+main section img {
+    height: 35vh;
+    width: auto;
+    border-radius: 10%;
+}
+h1 , h2 , h3{
+    color: #6d635c;
+    text-align: center;
+}
+a.nav-link{
+    color: #6d635c;
+}
+a.nav-link:hover{
+    color: var(--pink);
+}
+.banner{
+    background-color: var(--dark-green) ;
+}
