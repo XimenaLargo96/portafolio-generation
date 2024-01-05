@@ -29,3 +29,16 @@ a.nav-link:hover{
 .banner{
     background-color: var(--dark-green) ;
 }
+.logo-icons{
+    width: 60px;
+    height: 60px;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+footer{
+    background-color: var(--green);
+}
