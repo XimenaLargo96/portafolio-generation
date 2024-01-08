@@ -29,12 +29,6 @@ a.nav-link:hover{
     width: 60px;
     height: 60px;
 }
-.skill-container{
-    display: flex;
-    justify-content: space-evenly;
-
-}
-
 footer{
     background-color: var(--green);
 }
