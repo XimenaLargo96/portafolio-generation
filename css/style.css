@@ -11,7 +11,12 @@
     --dark-pink:#fca89d;
     --brown:#998b82;
 }
-
+nav.nav-responsive{
+    display: none;
+}
+section.about-me-responsive{
+    display: none;
+}
 h1 , h2 , h3{
     color: #6d635c;
     text-align: center;
@@ -29,6 +34,9 @@ a.nav-link:hover{
     width: 60px;
     height: 60px;
 }
+.projects{
+    background-color: var(--dark-green);
+}
 footer{
     background-color: var(--green);
 }
@@ -37,9 +45,30 @@ button.submit-button{
     border-radius: 5px;
     background-color: var(--brown);
     color: white;
-    width: 10vw;
+    width: 15vh;
     height: 4vh;
 }
 button.submit-button:hover{
     background-color: var(--pink);
+}
+
+@media screen and (max-width: 768px) {
+    nav.nav-responsive{
+        display: block;
+    }
+    nav.nav-desktop{
+        display: none;
+    }
+    section.about-me-responsive{
+        display: block;
+    }
+    section.about-me-desktop{
+        display: none;
+    }
+    p.description{
+        text-align: justify;
+    }
+    div.card{
+        margin-top: 20px;
+    }
 }
