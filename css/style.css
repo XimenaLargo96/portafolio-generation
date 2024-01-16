@@ -11,15 +11,15 @@
     --dark-pink:#fca89d;
     --brown:#998b82;
 }
-nav.nav-responsive{
-    display: none;
-}
 section.about-me-responsive{
     display: none;
 }
 h1 , h2 , h3{
     color: #6d635c;
     text-align: center;
+}
+.logo-responsive{
+    display: none;
 }
 a.nav-link{
     color: #6d635c;
@@ -53,10 +53,10 @@ button.submit-button:hover{
 }
 
 @media screen and (max-width: 768px) {
-    nav.nav-responsive{
+    .logo-responsive{
         display: block;
     }
-    nav.nav-desktop{
+    .logo-desktop{
         display: none;
     }
     section.about-me-responsive{
@@ -70,5 +70,10 @@ button.submit-button:hover{
     }
     div.card{
         margin-top: 20px;
+    }
+    .nav-responsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
